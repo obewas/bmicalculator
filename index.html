@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+<div class="wrapper">
+<h3 id="info">Enter height (cm) and weight (kgs)</h3>
+<p class="input">Height</p>
+<input type="number" onfocus="this.value=''" id="height">
+<p class="input">Weight</p>
+<input type="number" onfocus="this.value=''" id="weight">
+<div class="loader">
+    <img src="image/loader.png" alt="">
+</div>
+<p id="output"></p>
+<p id="state"></p>
+<button class="calculate" id="btn">Calculate</button>
+<button class="clear" id="btn">Clear</button>
+<br>
+<br>
+<footer class="footer">
+ &copy; Designed by Dimex-technologies
+</footer>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
