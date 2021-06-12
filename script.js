@@ -37,7 +37,7 @@ function BMI(){
         }else if (index < 35){
             state.innerHTML = 'You are Obese class I(moderately obese)'
         } else if (index < 40){
-            state.innerHTML = 'You are Obese class II (severly obese'
+            state.innerHTML = 'You are Obese class II (severly obese)'
         } else if (index > 40){
             state.innerHTML = 'You are Obese class III (very severely obese)'
         }
